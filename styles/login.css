@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: 'Lisu Bosa', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://drive.google.com/uc?export=dowload&id=1GrG-Ie3s0AC8M57_EkFlFY2n7wahRpHH");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div_login{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 12%;
+    border: 1.8px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 35px 0 rgba(191, 0, 255, 1);
+    display: grid;
+    justify-content: center;
+    width: 35vh;
+    height:40vh;
+}
+.txt_acceso{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    text-shadow: 0 0 0.5vh #000;
+    font-size: 6vh;
+    text-align: center;
+    color: #fff;
+}
+.h2-text{
+    font-size: 1.9vh;
+    text-shadow: 0 0 0.5vh #000;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.h2-error{
+    font-size: 1.9vh;
+    text-shadow: 0 0 0.5vh #000;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.div_user{
+    height: 4vh;
+    margin-bottom: 2vh;
+}
+.input_user{
+    font-size: 1.9vh;
+    border: 0.1vh solid #000;
+    border-radius: 7px;
+    box-shadow:0 5px 35px 0 rgba(255, 255, 255, 0.37);
+    text-align: center;
+    height: 3vh;
+    width: 24vh;
+}
+.div_password{
+    height: 4vh;
+    margin-bottom: 2vh;
+}
+.input_password{
+    font-size: 1.9vh;
+    border: 0.1vh solid #000;
+    border-radius: 7px;
+    box-shadow:0 5px 35px 0 rgba(255, 255, 255, 0.37);
+    text-align: center;
+    height: 3vh;
+    width: 24vh;
+}
+.div_button{
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+}
+.button_login{
+    font-size: 1.9vh;
+    border: 0;
+    border-radius: 7px;
+    box-shadow:0 5px 35px 0 rgba(255, 255, 255, 0.37);
+    text-align: center;
+    background-color: rgba(191, 0, 255, 0.7);
+    color: #fff;
+    height: 3vh;
+    width: 23vh;
+}
